@@ -271,9 +271,14 @@ strong {
 }
 .carousel-content {
   position: absolute;
-  top: 50%;
+  top: 60%;
   left: 50%;
+  text-align: center;
+  min-width: 680px;
+  min-height: 680px;
+  padding: 100px 100px 50px 100px;
   transform: translate(-50%, -50%);
+  text-shadow: 7px 5px 6px black;
 }
 
 /*---------------------------------------
