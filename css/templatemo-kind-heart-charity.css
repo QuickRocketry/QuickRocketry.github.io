@@ -63,6 +63,7 @@ https://templatemo.com/tm-581-kind-heart-charity
   --dark-color:                   #000000;
   --p-color:                      #717275;
   --border-color:                 #e9eaeb;
+  --text-body-color:              #b8bbbd;
 
   --body-font-family:             'Metropolis', sans-serif;
 
@@ -97,7 +98,6 @@ body {
 -----------------------------------------*/
 
 h2,
-h3,
 h4,
 h5,
 h6 {
@@ -127,6 +127,7 @@ h2 {
 }
 
 h3 {
+  color: var(--text-body-color);
   font-size: var(--h3-font-size);
 }
 
@@ -266,15 +267,22 @@ strong {
   opacity: 0;
   transition: opacity 1s ease-in-out;
 }
+
+.carousel-slide img, .carousel-slide video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
 .carousel-slide.active {
   opacity: 0.6;
 }
 .carousel-content {
   position: absolute;
-  top: 60%;
+  top: 95%;
   left: 50%;
   text-align: center;
-  min-width: 680px;
+  min-width: 1080px;
   min-height: 680px;
   padding: 100px 100px 50px 100px;
   transform: translate(-50%, -50%);
