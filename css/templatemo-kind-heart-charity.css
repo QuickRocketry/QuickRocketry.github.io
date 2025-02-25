@@ -94,7 +94,35 @@ body {
 
 
 /*---------------------------------------
-  TYPOGRAPHY               
+
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+
+
+  ::-webkit-scrollbar-track {
+    background: var(--navbar-bg-color);
+    border-left: 1px solid var(--navbar-bg-color);
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: var(--section-bg-color);
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: #3cbd00;
+    transition: 200ms all ;
+  } 
+
+-----------------------------------------*/
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+/*---------------------------------------
+  TYPOGRAPHY           
+      
 -----------------------------------------*/
 
 h2,
