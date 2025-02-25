@@ -569,7 +569,7 @@ strong {
 }
 
 .navbar-toggler .navbar-toggler-icon {
-  background: var(--dark-color);
+  background: var(--text-body-color);
   transition: background 10ms 300ms ease;
   display: block;
   width: 30px;
@@ -585,7 +585,7 @@ strong {
   position: absolute;
   right: 0;
   left: 0;
-  background: var(--dark-color);
+  background: var(--text-body-color);
   width: 30px;
   height: 2px;
   content: '';
