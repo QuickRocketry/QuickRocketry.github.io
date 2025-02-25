@@ -731,7 +731,7 @@ strong {
 }
 
 .custom-text-block {
-  padding: 60px 40px;
+  padding: 40px 40px;
 }
 
 
@@ -1323,7 +1323,9 @@ blockquote::before {
 -----------------------------------------*/
 .site-footer {
   background-color: var(--site-footer-bg-color);
-  padding-top: 70px;
+  margin-top: 60px;
+  padding-top: 40px;
+  padding-bottom: 50px;
 }
 
 .site-footer-bottom {
@@ -1705,5 +1707,9 @@ blockquote::before {
   .donate-form {
     padding: 25px;
   }
+}
+
+.social-link {
+  font-size: 22px;
 }
 

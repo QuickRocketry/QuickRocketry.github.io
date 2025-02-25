@@ -11,12 +11,28 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&family=Share+Tech+Mono&display=swap" rel="stylesheet">
-        <link href="style.css" rel="stylesheet">
+        <style>
+            .social-icon-link {
+                text-decoration: none;
+                font-weight: bold;
+            }
+
+            .bi-instagram {
+                background: linear-gradient(115deg, #f9ce34, #ee2a7b, #6228d7);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                display: inline-block; } /* Instagram pink */
+            .bi-linkedin { color: #0077B5; } /* LinkedIn blue */
+            .email {
+                color: #ea4335;
+                display: inline-block; /* Red gradient */
+            }
+        </style>
     </head>
     <body>
         <nav class="navbar navbar-expand-lg shadow-lg">
             <div class="container">
-                <a class="navbar-brand" href="index.html">
+                <a class="navbar-brand" href="/">
                     <img src="../images/logo.png" class="logo img-fluid" alt="logo">
                     <span>
                         Quick Rocket Team
@@ -59,9 +75,38 @@
                 <div class="col-lg-4 col-12 ms-auto mb-5 mb-lg-0">
                     <form class="custom-form contact-form" action="#" method="post" role="form">
                         <h2>İletişim Bilgileri</h2>
-                        <li class="social-icon-item">
-                            <div href="#" class="social-icon-link bi-instagram"></div>
-                        </li>
+                        
+                        <ul class="list-unstyled">
+                            <li class="d-flex align-items-center mb-2">
+                                <i class="bi bi-instagram me-2"></i>
+                                <a class="social-link" href="https://www.instagram.com/quick_roket" target="_blank">@quick_roket</a>
+                            </li>
+                            <li class="d-flex align-items-center mb-2">
+                                <i class="bi bi-linkedin me-2"></i>
+                                <a class="social-link" href="https://www.linkedin.com/company/quick-roket-takimi" target="_blank">Quick Roket Takımı</a>
+                            </li>
+                            <li class="d-flex align-items-center mb-2">
+                                <i class="bi bi-envelope-fill me-2 social-icon email"></i>
+                                <a class="social-link" href="mailto:quickrocketry@gmail.com" class="social-icon-link">quickrocketry@gmail.com</a>
+                            </li>
+                        </ul>
+                        <hr style="border-width: 5px; height: 10px; opacity: 1; color: var(--p-color);">
+                        <h2>Takım Kaptanı</h2>
+                        
+                        <ul class="list-unstyled">
+                            <li class="d-flex align-items-center mb-2">
+                                <i class="bi bi-instagram me-2"></i>
+                                <a class="social-link" href="https://www.instagram.com/doruk.insta" target="_blank">@doruk.insta</a>
+                            </li>
+                            <li class="d-flex align-items-center mb-2">
+                                <i class="bi bi-linkedin me-2"></i>
+                                <a class="social-link" href="https://www.linkedin.com/in/doruk-alp-uzunarslan/" target="_blank">Doruk Alp Uzunarslan</a>
+                            </li>
+                            <li class="d-flex align-items-center mb-2">
+                                <i class="bi bi-envelope-fill me-2 social-icon email"></i>
+                                <a class="social-link" href="mailto:duzunarslan27@my.uaa.k12.tr" class="social-icon-link">duzunarslan27@my.uaa.k12.tr</a>
+                            </li>
+                        </ul>
                     </form>
                 </div>
             <div class="col-lg-5 col-12 mx-auto">
@@ -91,5 +136,36 @@
             </div>
         </div>
     </div>
+    <footer class="site-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-12 mb-4">
+                    <img src="../images/logo.png" class="logo img-fluid" alt="">
+                </div>
+                <div class="col-lg-4 col-md-3 col-2">
+                    <h2>QUICK Roket Takımı</h2>
+                </div>
+                <div class="col-lg-4 col-md-6 col-12" style="margin-left: auto !important;">
+                    <h5 class="site-footer-title mb-3">QUICK Links</h5>
+
+                    <ul class="footer-menu">
+                        <li class="footer-menu-item"><a href="#" class="footer-menu-link click-scroll">Ana Sayfa</a></li>
+
+                        <li class="footer-menu-item"><a href="/about-us" class="footer-menu-link">Hakkımızda</a></li>
+
+                        <li class="footer-menu-item"><a href="#" class="footer-menu-link">Projelerimiz</a></li>
+
+                        <li class="footer-menu-item"><a href="/our-team" class="footer-menu-link">Ekibimiz</a></li>
+
+                        <li class="footer-menu-item"><a href="/contact" class="footer-menu-link">İletişim</a></li>
+                    </ul>
+                </div>
+
+               
+            </div>
+        </div>
+
+        
+    </footer>
     </body>
 </html>
