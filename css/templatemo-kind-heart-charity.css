@@ -159,7 +159,7 @@ ul li {
 a, 
 button {
   touch-action: manipulation;
-  transition: all 0.3s;
+  transition: all 3s;
 }
 
 a {
@@ -1314,7 +1314,7 @@ blockquote::before {
 }
 
 .donate-form .form-control {
-  margin-bottom: 0;
+  margin-bottom: 0; 
 }
 
 
